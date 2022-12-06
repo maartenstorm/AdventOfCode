@@ -26,10 +26,7 @@ def find_start(input_string):
                     start_char = a + len(sub_string) + 1 + (b-1)
                     return start_char
                 b += 1
-        #print ("start after character: ", start_char)
         a += 1
-
-        #print ("start after character: ", start_char)
 
 f = open("./day06/input06.txt")
 lines = f.readlines()
